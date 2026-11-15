@@ -4,7 +4,7 @@
 \name{dataStepClass}
 \alias{dataStepClass}
 \title{An implementation of a SAS datastep in a class}
-\format{An \code{\link{R6Class}} generator object}
+\format{An \code{\link[R6:R6Class]{R6Class}} generator object}
 \usage{
 dataStepClass
 }

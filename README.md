@@ -1,5 +1,18 @@
-# Datastepr
+# datastepr
 
-[![Travis-CI Build Status](https://travis-ci.org/bramtayl/datastepr.svg?branch=master)](https://travis-ci.org/bramtayl/datastepr)
-[![Coverage Status](https://codecov.io/github/bramtayl/datastepr/coverage.svg?branch=master)](https://codecov.io/github/bramtayl/datastepr?branch=master)
-[![Coverage Status](https://coveralls.io/repos/bramtayl/datastepr/badge.svg?branch=master&service=github)](https://coveralls.io/github/bramtayl/datastepr?branch=master)
+Implements a SAS-style data step for row-wise dynamic building and analysis of data frames.
+
+Compatibility updates by Renova.
+
+Version 0.0.2.9001: Added Authors@R and [aut, cre] roles to DESCRIPTION, and qualified the R6Class link in man/dataStepClass.Rd.
+
+## Install
+
+```r
+install.packages("remotes")
+remotes::install_github("renova-r/datastepr@renova-0.0.2.9001")
+```
+
+[Release notes](NEWS.md) · [Renova package directory](https://github.com/renova-r/revival-catalog)
+
+Originally authored and maintained by Brandon Taylor. Original project: <https://github.com/bramtayl/datastepr>. License: CC0. See [COPYING](COPYING).
